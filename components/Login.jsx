@@ -5,9 +5,12 @@ const Login = () => {
 
   return (
     <div className="gradientBG login-screen">
+      <div className="LogIn">
+      <h1>Welcome to Medorant!</h1>
       <button onClick={authenticate} className="btn">
         Login 
-      </button>
+      </button>       
+      </div>
     </div>
   );
 };

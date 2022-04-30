@@ -15,8 +15,8 @@ const Transaction = () => {
   return (
     <div>
       <div>
-        <button onClick={() => fetch()} disabled={isFetching}>
-          Transfer
+        <button onClick={() => fetch()} disabled={isFetching} className="btn-2">
+          Get Reward
         </button>
       </div>
     </div>
