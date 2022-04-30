@@ -6,7 +6,7 @@ const Login = () => {
   return (
     <div className="gradientBG login-screen">
       <button onClick={authenticate} className="btn">
-        Login to the METAVERSE
+        Login 
       </button>
     </div>
   );
